@@ -748,7 +748,7 @@ local function noteHoldWait(beats, bpm, shorts)
     preciseWait(waittime)
 end
 
-local function triggerPress(key, beats, bpm, shift, ctrlRequired)
+local function triggerPress(key, beats, bpm, shift, ctrlRequired, capsRequired)
 
     if not keyMappings[key] and not midiKeyMappings[key] then
         return
@@ -809,6 +809,11 @@ local function triggerPress(key, beats, bpm, shift, ctrlRequired)
         if ctrlRequired then
             VirtualInputManager:SendKeyEvent(true, Enum.KeyCode.LeftControl, false, game)
         end
+
+        if capsRequired then
+            VirtualInputManager:SendKeyEvent(true, Enum.KeyCode.CapsLock, false, game)
+            VirtualInputManager:SendKeyEvent(false, Enum.KeyCode.CapsLock, false, game)
+        end
         
         VirtualInputManager:SendKeyEvent(true, keyMappings[key], false, game)
 
@@ -816,6 +821,11 @@ local function triggerPress(key, beats, bpm, shift, ctrlRequired)
             VirtualInputManager:SendKeyEvent(false, Enum.KeyCode.LeftControl, false, game)
         end
 
+        if capsRequired then
+            VirtualInputManager:SendKeyEvent(true, Enum.KeyCode.CapsLock, false, game)
+            VirtualInputManager:SendKeyEvent(false, Enum.KeyCode.CapsLock, false, game)
+        end
+        
         if shiftApplied == true then
             if not shift then
                 VirtualInputManager:SendKeyEvent(false, Enum.KeyCode.LeftShift, false, game) -- turn shift off if shift was applied to a non-shift
@@ -865,6 +875,7 @@ local function pressKey(keys, beats, bpm, isChord)
 
     local shiftRequired, nonShift, toPressMidi = {}, {}, {}
     local ctrlRequired = false
+    local capsRequired = false
 
     if _G.midiSpoof then
         if keys:sub(1, 5) == "Ctrl+" then
@@ -880,7 +891,7 @@ local function pressKey(keys, beats, bpm, isChord)
         for _, key in ipairs(toPressMidi) do
             coroutine.wrap(
                 function()
-                    triggerPress(key, beats, bpm, false, false)
+                    triggerPress(key, beats, bpm, false, false, false)
                 end
             )()
             if isChord and errormargin ~= 0 then
@@ -895,6 +906,11 @@ local function pressKey(keys, beats, bpm, isChord)
             keys = keys:sub(6) -- remove ctrl+
         end
 
+        if keys:sub(1, 5) == "Caps+" then
+            capsRequired = true
+            keys = keys:sub(6) -- remove ctrl+
+        end
+
         -- seperate shift and no shift
         for i = 1, #keys do
             local key = keys:sub(i, i)
@@ -905,7 +921,7 @@ local function pressKey(keys, beats, bpm, isChord)
         for _, key in ipairs(nonShift) do
             coroutine.wrap(
                 function()
-                    triggerPress(key, beats, bpm, false, ctrlRequired)
+                    triggerPress(key, beats, bpm, false, ctrlRequired, capsRequired)
                 end
             )()
             if isChord and errormargin ~= 0 then
@@ -920,7 +936,7 @@ local function pressKey(keys, beats, bpm, isChord)
             for _, key in ipairs(shiftRequired) do
                 coroutine.wrap(
                     function()
-                        triggerPress(key, beats, bpm, true, ctrlRequired)
+                        triggerPress(key, beats, bpm, true, ctrlRequired, capsRequired)
                     end
                 )()
                 if isChord and errormargin ~= 0 then
