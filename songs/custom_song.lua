@@ -1,663 +1,1652 @@
--- nơi này có anh — custom_song for Roblox --
-song = {
-  {"E6",1},
-  {"F6",0.5},
-  {"G6",0.25},
-  {"E4,A3,F3",0.25},
-  {"E6",1},
-  {"F6",0.5},
-  {"G6",0.25},
-  {"D4,B3,G3",0.25},
-  {"E6",1},
-  {"F6",0.5},
-  {"G6",0.25},
-  {"E4,C4,A3",0.25},
-  {"G6",0.5},
-  {"E6",0.5},
-  {"A6",0.5},
-  {"G6",0.25},
-  {"D4,G3,E3",0.25},
-  {"G6",0.5},
-  {"E6",0.5},
-  {"D6",0.25},
-  {"C6",0.25},
-  {"C4,A3,F3,D6",0.5},
-  {"A5",0.75},
-  {"E6",0.25},
-  {"D6",0.25},
-  {"C6",0.25},
-  {"D4,B3,G3,D6",0.5},
-  {"C6",0.5},
-  {"D6",0.25},
-  {"G6",0.5},
-  {"E6,C4,G3,C3",0.75},
-  {"E6",3},
-  {"F6",0.5},
-  {"G6",0.25},
-  {"E4,A3,F3",0.25},
-  {"E6",1},
-  {"F6",0.5},
-  {"G6",0.25},
-  {"D4,B3,G3",0.25},
-  {"E6",1},
-  {"F6",0.5},
-  {"G6",0.25},
-  {"E4,C4,A3",0.25},
-  {"G6",0.5},
-  {"E6",0.5},
-  {"A6",0.5},
-  {"G6",0.25},
-  {"D4,G3,E3",0.25},
-  {"G6",0.5},
-  {"E6",0.5},
-  {"D6",0.25},
-  {"C6",0.25},
-  {"C4,A3,F3,D6",0.5},
-  {"A5",0.75},
-  {"E6",0.25},
-  {"D6",0.25},
-  {"C6",0.25},
-  {"F4,G3,D6",0.5},
-  {"E6",0.5},
-  {"D6",0.5},
-  {"C6",0.5},
-  {"C6,F5,F3,A3",0.5},
-  {"C4",0.5},
-  {"E4",0.5},
-  {"D4",0.25},
-  {"C4",0.25},
-  {"C4,E4",0.5},
-  {"A5",1},
-  {"G5",0.75},
-  {"A5,F2",0.25},
-  {"C6,C3",0.5},
-  {"D6,A3",0.5},
-  {"E6",0.5},
-  {"E6,G2",0.5},
-  {"D3,D6",0.5},
-  {"B3,D6",0.5},
-  {"B5",0.5},
-  {"B5,A2",0.5},
-  {"C6,E3",0.5},
-  {"C6,C4",0.5},
-  {"C3",1},
-  {"G3",0.5},
-  {"D4,A5",0.5},
-  {"G5",0.75},
-  {"F2,A5",0.25},
-  {"C3,C6",0.5},
-  {"A3,D6",0.5},
-  {"E6",0.5},
-  {"G2,E6",0.5},
-  {"D3,D6",0.5},
-  {"B3,D6",0.5},
-  {"B5",0.5},
-  {"C3,B5",0.5},
-  {"G3,C6",0.5},
-  {"E4,C6",0.5},
-  {"C3",1},
-  {"G3",0.5},
-  {"C4,C6",0.5},
-  {"E4,B5",0.5},
-  {"A5,F2",0.5},
-  {"C3",0.5},
-  {"F3",0.5},
-  {"A3",0.5},
-  {"D6,G2",0.5},
-  {"F3",0.5},
-  {"B3",0.5},
-  {"G3,B5",0.5},
-  {"B5,A2",0.5},
-  {"C6,E3",0.5},
-  {"D6,A3",0.5},
-  {"G5,C3",0.5},
-  {"E2",0.5},
-  {"E3",0.5},
-  {"G3,C6",0.5},
-  {"B3,B5",0.5},
-  {"A5,F2",0.5},
-  {"E6,F3",0.5},
-  {"E6",0.25},
-  {"A3",0.25},
-  {"C4",0.5},
-  {"G2,A5",0.5},
-  {"D3,D6",0.5},
-  {"D6",0.25},
-  {"B3",0.25},
-  {"F3,C6",0.5},
-  {"C3,C6,F5",0.5},
-  {"G3",0.5},
-  {"E4",0.5},
-  {"C4",0.5},
-  {"C4,E4",0.5},
-  {"A5",1},
-  {"G5",0.75},
-  {"A5,F2",0.25},
-  {"C6,C3",0.5},
-  {"D6,A3",0.5},
-  {"E6",0.5},
-  {"E6,G2",0.5},
-  {"D3,D6",0.5},
-  {"B3,D6",0.5},
-  {"B5",0.5},
-  {"B5,A2",0.5},
-  {"C6,E3",0.5},
-  {"C6,C4",0.5},
-  {"E3",1},
-  {"G3",0.5},
-  {"D4,A5",0.5},
-  {"G5",0.75},
-  {"F2,A5",0.25},
-  {"C3,C6",0.5},
-  {"A3,D6",0.5},
-  {"E6",0.5},
-  {"G2,E6",0.5},
-  {"D3,D6",0.5},
-  {"B3,D6",0.5},
-  {"B5",0.5},
-  {"C3,B5",0.5},
-  {"G3,C6",0.5},
-  {"E4,C6",0.5},
-  {"C3",1},
-  {"G3",0.5},
-  {"C4,C6",0.5},
-  {"E4,B5",0.5},
-  {"A5,F2",0.5},
-  {"C3",0.5},
-  {"F3",0.5},
-  {"A3",0.5},
-  {"D6,G2",0.5},
-  {"F3",0.5},
-  {"B3",0.5},
-  {"G3,B5",0.5},
-  {"B5,A2",0.5},
-  {"C6,E3",0.5},
-  {"D6,A3",0.5},
-  {"G5,C3",0.5},
-  {"E2",0.5},
-  {"E3",0.5},
-  {"G3,C6",0.5},
-  {"B3,B5",0.5},
-  {"A5,F2",0.5},
-  {"E6,F3",0.5},
-  {"E6",0.25},
-  {"A3",0.25},
-  {"C4",0.5},
-  {"G2,A5",0.5},
-  {"D3,D6",0.5},
-  {"D6",0.25},
-  {"B3",0.25},
-  {"F3,C6",0.5},
-  {"C3,C6,F5",0.5},
-  {"G3",0.5},
-  {"E4",0.5},
-  {"C4",0.5},
-  {"E4,C4",0.5},
-  {"E6",1},
-  {"F6",0.5},
-  {"G6",0.25},
-  {"F2",0.25},
-  {"C3",0.5},
-  {"E6,G3",0.5},
-  {"F6,C3",0.5},
-  {"G6",0.25},
-  {"G2",0.25},
-  {"D3",0.5},
-  {"E6,G3",0.5},
-  {"F6,D3",0.5},
-  {"G6",0.25},
-  {"A2",0.25},
-  {"G6,E3",0.5},
-  {"E6,G3",0.5},
-  {"A6,E3",0.5},
-  {"G6",0.25},
-  {"E2",0.25},
-  {"G6,D3",0.5},
-  {"E6,G3",0.5},
-  {"D6",0.25},
-  {"C6,D3",0.25},
-  {"D6,F2",0.5},
-  {"C3",0.5},
-  {"A5",0.25},
-  {"E6,G3",0.25},
-  {"D6",0.25},
-  {"C6,C3",0.25},
-  {"D6,G2",0.5},
-  {"C6,D3",0.5},
-  {"D6",0.25},
-  {"G3",0.25},
-  {"G6",0.25},
-  {"D3",0.25},
-  {"E6,C3",0.5},
-  {"G3",0.5},
-  {"C4",0.5},
-  {"G3",0.5},
-  {"E4",0.5},
-  {"G3",0.5},
-  {"C4,E6",0.5},
-  {"F6",0.5},
-  {"G6",0.25},
-  {"F2",0.25},
-  {"C3",0.5},
-  {"E6,G3",0.5},
-  {"F6,C3",0.5},
-  {"G6",0.25},
-  {"G2",0.25},
-  {"D3",0.5},
-  {"E6,G3",0.5},
-  {"F6,D3",0.5},
-  {"G6",0.25},
-  {"A2",0.25},
-  {"G6,E3",0.5},
-  {"E6,G3",0.5},
-  {"A6,E3",0.5},
-  {"G6",0.25},
-  {"E2",0.25},
-  {"G6,D3",0.5},
-  {"E6,G3",0.5},
-  {"D6",0.25},
-  {"C6,D3",0.25},
-  {"D6,F2",0.5},
-  {"C3",0.5},
-  {"A5",0.25},
-  {"E6,G3",0.25},
-  {"D6",0.25},
-  {"C6,C3",0.25},
-  {"D6,G2",0.5},
-  {"D6,D3",0.5},
-  {"D6",0.25},
-  {"G3,E6",0.25},
-  {"D6",0.25},
-  {"D3,C6",0.25},
-  {"C6,F5,C3",0.5},
-  {"G3",0.5},
-  {"C4",0.5},
-  {"G3",0.5},
-  {"C4,E4",0.5},
-  {"C6",0.5},
-  {"D6",0.5},
-  {"E6",0.5},
-  {"A5,F2",0.5},
-  {"C3",0.5},
-  {"A3",0.5},
-  {"C3",0.5},
-  {"G2,D6",0.5},
-  {"D3",0.5},
-  {"B3",0.5},
-  {"D3,D6",0.5},
-  {"A2,D6",0.5},
-  {"E3,E6",0.5},
-  {"C4,G6",0.5},
-  {"E3,E6",0.5},
-  {"E2",0.5},
-  {"C6,B2",0.5},
-  {"D6,G3",0.5},
-  {"E6,B2",0.5},
-  {"A5,F2",0.5},
-  {"C3",0.5},
-  {"A3",0.5},
-  {"C3",0.5},
-  {"D6,G2",0.5},
-  {"D3",0.5},
-  {"B3",0.5},
-  {"D3,B5",0.5},
-  {"B5,C3",0.5},
-  {"C6,G3",0.5},
-  {"C6,C4",0.5},
-  {"D4",0.5},
-  {"E4,C4",0.5},
-  {"C6",0.5},
-  {"D6",0.5},
-  {"E6",0.5},
-  {"A5,F2",0.5},
-  {"C3",0.5},
-  {"A3",0.5},
-  {"C3",0.5},
-  {"D6,G2",0.5},
-  {"D3",0.5},
-  {"B3",0.5},
-  {"D6,D3",0.5},
-  {"D6,A2",0.5},
-  {"E6,E3",0.5},
-  {"G6,C4",0.5},
-  {"E6,E3",0.5},
-  {"E2",0.5},
-  {"C6,B2",0.5},
-  {"D6,G3",0.5},
-  {"E6,B2",0.5},
-  {"A5,F2",0.5},
-  {"C3",0.5},
-  {"A3",0.5},
-  {"C3",0.5},
-  {"D6,G2",0.5},
-  {"D3",0.5},
-  {"B3",0.5},
-  {"B5,D3",0.5},
-  {"B5,C3",0.5},
-  {"C6,G3",0.5},
-  {"C6,C4",0.5},
-  {"D4",0.5},
-  {"C4,E4",0.5},
-  {"C4,G3",1},
-  {"E5",0.75},
-  {"C6,F2",0.25},
-  {"C6,C3",0.5},
-  {"C6",0.25},
-  {"G3",0.25},
-  {"B5",0.25},
-  {"B5,C3",0.25},
-  {"C6",0.25},
-  {"B5,G2",0.25},
-  {"B5,D3",0.5},
-  {"A5",0.25},
-  {"B5,A3",0.25},
-  {"D3",0.5},
-  {"A2,C6",0.5},
-  {"E3,C6",0.5},
-  {"B3,C6",0.5},
-  {"C6",0.25},
-  {"E3,C6",0.25},
-  {"E2,B5",0.5},
-  {"D3,B5",0.5},
-  {"A5",0.25},
-  {"G3,B5",0.25},
-  {"D3",0.5},
-  {"F2",0.5},
-  {"C6",0.25},
-  {"C6,C3",0.25},
-  {"C6",0.25},
-  {"C6,G3",0.25},
-  {"G5",0.25},
-  {"C3",0.25},
-  {"C6",0.25},
-  {"G2,C6",0.25},
-  {"C6",0.25},
-  {"D3,C6",0.25},
-  {"C6",0.25},
-  {"A3,C6",0.25},
-  {"G5",0.25},
-  {"D3",0.25},
-  {"G5",0.25},
-  {"A2,C6",0.25},
-  {"G5",0.25},
-  {"G3",0.25},
-  {"G5",0.25},
-  {"C4,C6",0.25},
-  {"G5",0.25},
-  {"E4",0.25},
-  {"G5",0.25},
-  {"C6,G3",0.25},
-  {"C6",0.25},
-  {"G5,C4",0.25},
-  {"G5",0.25},
-  {"C6,E4",0.25},
-  {"G5",0.25},
-  {"C4",0.25},
-  {"E6,F2",0.5},
-  {"C6",0.375},
-  {"C6,C3",0.125},
-  {"C6",0.25},
-  {"C6,G3",0.25},
-  {"D6",0.25},
-  {"C3",0.25},
-  {"G2,E6",0.5},
-  {"C6",0.375},
-  {"D3,C6",0.125},
-  {"C6",0.25},
-  {"G3,C6",0.25},
-  {"D6",0.25},
-  {"D3",0.25},
-  {"A5",0.25},
-  {"A2,E6",0.25},
-  {"C6",0.375},
-  {"E3,C6",0.125},
-  {"C6",0.25},
-  {"G3,C6",0.25},
-  {"D6",0.25},
-  {"E3",0.25},
-  {"A5",0.25},
-  {"A5",0.125},
-  {"E6,E2",0.125},
-  {"C6",0.375},
-  {"C6,D3",0.125},
-  {"C6",0.25},
-  {"C6,G3",0.25},
-  {"D6",0.25},
-  {"D3",0.25},
-  {"A5",0.25},
-  {"C6,F2",0.25},
-  {"C6",0.375},
-  {"C6,C3",0.125},
-  {"C6",0.25},
-  {"G3",0.25},
-  {"C6",0.25},
-  {"E5,C3",0.25},
-  {"E5",0.25},
-  {"G2,C6",0.25},
-  {"C6",0.375},
-  {"D3,C6",0.125},
-  {"C6",0.25},
-  {"G3",0.25},
-  {"C6",0.25},
-  {"D3,E5",0.25},
-  {"E5",0.25},
-  {"C6,C3",0.25},
-  {"C6,G3",0.5},
-  {"C6",0.25},
-  {"C6,C4",0.25},
-  {"C6",0.25},
-  {"D6,D4",0.25},
-  {"C6,E4,C4",0.5},
-  {"E6",1},
-  {"F6",0.5},
-  {"G6",0.25},
-  {"F2",0.25},
-  {"C3",0.5},
-  {"E6,G3",0.5},
-  {"F6,C3",0.5},
-  {"G6",0.25},
-  {"G2",0.25},
-  {"D3",0.5},
-  {"E6,G3",0.5},
-  {"F6,D3",0.5},
-  {"G6",0.25},
-  {"A2",0.25},
-  {"G6,E3",0.5},
-  {"E6,G3",0.5},
-  {"A6,E3",0.5},
-  {"G6",0.25},
-  {"E2",0.25},
-  {"G6,D3",0.5},
-  {"E6,G3",0.5},
-  {"D6",0.25},
-  {"C6,D3",0.25},
-  {"D6,F2",0.5},
-  {"C3",0.5},
-  {"A5",0.25},
-  {"E6,G3",0.25},
-  {"D6",0.25},
-  {"C6,C3",0.25},
-  {"D6,G2",0.5},
-  {"C6,D3",0.5},
-  {"D6",0.25},
-  {"G3",0.25},
-  {"G6",0.25},
-  {"D3",0.25},
-  {"E6,C3",0.5},
-  {"G3",0.5},
-  {"C4",0.5},
-  {"G3",0.5},
-  {"E4",0.5},
-  {"G3",0.5},
-  {"E6,C4",0.5},
-  {"F6",0.5},
-  {"G6",0.25},
-  {"F2",0.25},
-  {"C3",0.5},
-  {"E6,G3",0.5},
-  {"F6,C3",0.5},
-  {"G6",0.25},
-  {"G2",0.25},
-  {"D3",0.5},
-  {"E6,G3",0.5},
-  {"F6,D3",0.5},
-  {"G6",0.25},
-  {"A2",0.25},
-  {"G6,E3",0.5},
-  {"E6,G3",0.5},
-  {"A6,E3",0.5},
-  {"G6",0.25},
-  {"E2",0.25},
-  {"G6,D3",0.5},
-  {"E6,G3",0.5},
-  {"D6",0.25},
-  {"C6,D3",0.25},
-  {"D6,F2",0.5},
-  {"C3",0.5},
-  {"A5",0.25},
-  {"E6,G3",0.25},
-  {"D6",0.25},
-  {"C6,C3",0.25},
-  {"D6,G2",0.5},
-  {"D6,D3",0.5},
-  {"D6",0.25},
-  {"E6,G3",0.25},
-  {"D6",0.25},
-  {"C6,D3",0.25},
-  {"C6,F5,C3",0.5},
-  {"G3",0.5},
-  {"C4",0.5},
-  {"G3",0.5},
-  {"C4,E4",0.5},
-  {"E6",0.5},
-  {"D6",0.5},
-  {"C6",0.25},
-  {"A5",0.25},
-  {"C6,F2",0.5},
-  {"E6,C3",0.5},
-  {"A3",0.5},
-  {"A5",0.5},
-  {"G2",0.5},
-  {"G5",0.25},
-  {"A5,D3",0.25},
-  {"G5,B3",0.5},
-  {"G6,A2",1},
-  {"E3",0.5},
-  {"E6,C4",0.5},
-  {"D6,E3",1},
-  {"E6,G3",0.5},
-  {"D6,B3",0.5},
-  {"C6",0.25},
-  {"A5",0.25},
-  {"C6,F2",0.5},
-  {"E6,C3",0.5},
-  {"A3",0.5},
-  {"A5",0.5},
-  {"G2",0.5},
-  {"G5",0.25},
-  {"A5,D3",0.25},
-  {"G5,B3",0.5},
-  {"G6,C3",1},
-  {"G3",0.5},
-  {"E6,C4",0.5},
-  {"G3",0.5},
-  {"D6,E4",0.5},
-  {"G3",0.5},
-  {"E6,C4",0.5},
-  {"G3",0.5},
-  {"F2,A6",0.5},
-  {"C3",0.5},
-  {"A3",0.5},
-  {"G2",1},
-  {"D3",0.5},
-  {"B3,B6",0.5},
-  {"A6",0.5},
-  {"A2,G6",0.5},
-  {"E3",0.5},
-  {"C4,E6",0.5},
-  {"E2",1},
-  {"B2,G6",0.5},
-  {"G3,E6",0.5},
-  {"D6",0.5},
-  {"D6,F2",0.5},
-  {"E6,C3",0.5},
-  {"C6",0.25},
-  {"A3",0.25},
-  {"C6",0.75},
-  {"G2,D6",0.25},
-  {"D3,D6",0.5},
-  {"D6",0.25},
-  {"B3",0.25},
-  {"C6",0.25},
-  {"D3,C6",0.25},
-  {"C6,C3",0.5},
-  {"G3",0.5},
-  {"C4,E4",0.5},
-  {"E6",2},
-  {"F6",0.5},
-  {"G6",0.25},
-  {"E4,A3,F3",0.25},
-  {"E6",1},
-  {"F6",0.5},
-  {"G6",0.25},
-  {"D4,B3,G3",0.25},
-  {"E6",1},
-  {"F6",0.5},
-  {"G6",0.25},
-  {"E4,C4,A3",0.25},
-  {"G6",0.5},
-  {"E6",0.5},
-  {"A6",0.5},
-  {"G6",0.25},
-  {"D4,G3,E3",0.25},
-  {"G6",0.5},
-  {"E6",0.5},
-  {"D6",0.25},
-  {"C6",0.25},
-  {"C4,A3,F3,D6",0.5},
-  {"A5",0.75},
-  {"E6",0.25},
-  {"D6",0.25},
-  {"C6",0.25},
-  {"D4,B3,G3,D6",0.5},
-  {"C6",0.5},
-  {"D6",0.25},
-  {"G6",0.5},
-  {"E6,C4,G3,C3",0.75},
-  {"E6",3},
-  {"F6",0.5},
-  {"G6",0.25},
-  {"E4,A3,F3",0.25},
-  {"E6",1},
-  {"F6",0.5},
-  {"G6",0.25},
-  {"D4,B3,G3",0.25},
-  {"E6",1},
-  {"F6",0.5},
-  {"G6",0.25},
-  {"E4,C4,A3",0.25},
-  {"G6",0.5},
-  {"E6",0.5},
-  {"A6",0.5},
-  {"G6",0.25},
-  {"D4,G3,E3",0.25},
-  {"G6",0.5},
-  {"E6",0.5},
-  {"D6",0.25},
-  {"C6",0.25},
-  {"C4,A3,F3,D6",0.5},
-  {"A5",0.75},
-  {"E6",0.25},
-  {"D6",0.25},
-  {"C6",0.25},
-  {"F4,G3,D6",0.5},
-  {"E6",0.5},
-  {"D6",0.5},
-  {"C6",0.5},
-  {"C6,F5,F3,A3",0.5},
-  {"C4",0.5},
-  {"E4",0.5},
-  {"D4",0.25},
-  {"C4",0.25},
-  {"C4,E4",0.5},
-}
+rest(1, bpm)
+keypress("x", x, bpm)
+rest(0.5, bpm)
+keypress("c", x, bpm)
+rest(0.25, bpm)
+keypress("v", x, bpm)
+rest(0.25, bpm)
+keypress("u", x, bpm)
+keypress("e", x, bpm)
+keypress("q", x, bpm)
+rest(1, bpm)
+keypress("x", x, bpm)
+rest(0.5, bpm)
+keypress("c", x, bpm)
+rest(0.25, bpm)
+keypress("v", x, bpm)
+rest(0.25, bpm)
+keypress("y", x, bpm)
+keypress("r", x, bpm)
+keypress("w", x, bpm)
+rest(1, bpm)
+keypress("x", x, bpm)
+rest(0.5, bpm)
+keypress("c", x, bpm)
+rest(0.25, bpm)
+keypress("v", x, bpm)
+rest(0.25, bpm)
+keypress("u", x, bpm)
+keypress("t", x, bpm)
+keypress("e", x, bpm)
+rest(0.5, bpm)
+keypress("v", x, bpm)
+rest(0.5, bpm)
+keypress("x", x, bpm)
+rest(0.5, bpm)
+keypress("b", x, bpm)
+rest(0.25, bpm)
+keypress("v", x, bpm)
+rest(0.25, bpm)
+keypress("y", x, bpm)
+keypress("w", x, bpm)
+keypress("0", x, bpm)
+rest(0.5, bpm)
+keypress("v", x, bpm)
+rest(0.5, bpm)
+keypress("x", x, bpm)
+rest(0.25, bpm)
+keypress("z", x, bpm)
+rest(0.25, bpm)
+keypress("l", x, bpm)
+rest(0.5, bpm)
+keypress("t", x, bpm)
+keypress("e", x, bpm)
+keypress("q", x, bpm)
+keypress("z", x, bpm)
+rest(0.75, bpm)
+keypress("j", x, bpm)
+rest(0.25, bpm)
+keypress("x", x, bpm)
+rest(0.25, bpm)
+keypress("z", x, bpm)
+rest(0.25, bpm)
+keypress("l", x, bpm)
+rest(0.5, bpm)
+keypress("y", x, bpm)
+keypress("r", x, bpm)
+keypress("w", x, bpm)
+keypress("z", x, bpm)
+rest(0.5, bpm)
+keypress("l", x, bpm)
+rest(0.25, bpm)
+keypress("z", x, bpm)
+rest(0.5, bpm)
+keypress("v", x, bpm)
+rest(0.75, bpm)
+keypress("x", x, bpm)
+keypress("t", x, bpm)
+keypress("w", x, bpm)
+keypress("8", x, bpm)
+rest(3, bpm)
+keypress("x", x, bpm)
+rest(0.5, bpm)
+keypress("c", x, bpm)
+rest(0.25, bpm)
+keypress("v", x, bpm)
+rest(0.25, bpm)
+keypress("u", x, bpm)
+keypress("e", x, bpm)
+keypress("q", x, bpm)
+rest(1, bpm)
+keypress("x", x, bpm)
+rest(0.5, bpm)
+keypress("c", x, bpm)
+rest(0.25, bpm)
+keypress("v", x, bpm)
+rest(0.25, bpm)
+keypress("y", x, bpm)
+keypress("r", x, bpm)
+keypress("w", x, bpm)
+rest(1, bpm)
+keypress("x", x, bpm)
+rest(0.5, bpm)
+keypress("c", x, bpm)
+rest(0.25, bpm)
+keypress("v", x, bpm)
+rest(0.25, bpm)
+keypress("u", x, bpm)
+keypress("t", x, bpm)
+keypress("e", x, bpm)
+rest(0.5, bpm)
+keypress("v", x, bpm)
+rest(0.5, bpm)
+keypress("x", x, bpm)
+rest(0.5, bpm)
+keypress("b", x, bpm)
+rest(0.25, bpm)
+keypress("v", x, bpm)
+rest(0.25, bpm)
+keypress("y", x, bpm)
+keypress("w", x, bpm)
+keypress("0", x, bpm)
+rest(0.5, bpm)
+keypress("v", x, bpm)
+rest(0.5, bpm)
+keypress("x", x, bpm)
+rest(0.25, bpm)
+keypress("z", x, bpm)
+rest(0.25, bpm)
+keypress("l", x, bpm)
+rest(0.5, bpm)
+keypress("t", x, bpm)
+keypress("e", x, bpm)
+keypress("q", x, bpm)
+keypress("z", x, bpm)
+rest(0.75, bpm)
+keypress("j", x, bpm)
+rest(0.25, bpm)
+keypress("x", x, bpm)
+rest(0.25, bpm)
+keypress("z", x, bpm)
+rest(0.25, bpm)
+keypress("l", x, bpm)
+rest(0.5, bpm)
+keypress("i", x, bpm)
+keypress("w", x, bpm)
+keypress("z", x, bpm)
+rest(0.5, bpm)
+keypress("x", x, bpm)
+rest(0.5, bpm)
+keypress("z", x, bpm)
+rest(0.5, bpm)
+keypress("l", x, bpm)
+rest(0.5, bpm)
+keypress("l", x, bpm)
+keypress("g", x, bpm)
+keypress("q", x, bpm)
+keypress("e", x, bpm)
+rest(0.5, bpm)
+keypress("t", x, bpm)
+rest(0.5, bpm)
+keypress("u", x, bpm)
+rest(0.25, bpm)
+keypress("y", x, bpm)
+rest(0.25, bpm)
+keypress("t", x, bpm)
+rest(0.5, bpm)
+keypress("t", x, bpm)
+keypress("u", x, bpm)
+rest(1, bpm)
+keypress("j", x, bpm)
+rest(0.75, bpm)
+keypress("h", x, bpm)
+rest(0.25, bpm)
+keypress("j", x, bpm)
+keypress("4", x, bpm)
+rest(0.5, bpm)
+keypress("l", x, bpm)
+keypress("8", x, bpm)
+rest(0.5, bpm)
+keypress("z", x, bpm)
+keypress("e", x, bpm)
+rest(0.5, bpm)
+keypress("x", x, bpm)
+rest(0.5, bpm)
+keypress("x", x, bpm)
+keypress("5", x, bpm)
+rest(0.5, bpm)
+keypress("9", x, bpm)
+keypress("z", x, bpm)
+rest(0.5, bpm)
+keypress("r", x, bpm)
+keypress("z", x, bpm)
+rest(0.5, bpm)
+keypress("k", x, bpm)
+rest(0.5, bpm)
+keypress("k", x, bpm)
+keypress("6", x, bpm)
+rest(0.5, bpm)
+keypress("l", x, bpm)
+keypress("0", x, bpm)
+rest(0.5, bpm)
+keypress("l", x, bpm)
+keypress("t", x, bpm)
+rest(1, bpm)
+keypress("8", x, bpm)
+rest(0.5, bpm)
+keypress("w", x, bpm)
+rest(0.5, bpm)
+keypress("y", x, bpm)
+keypress("j", x, bpm)
+rest(0.75, bpm)
+keypress("h", x, bpm)
+rest(0.25, bpm)
+keypress("4", x, bpm)
+keypress("j", x, bpm)
+rest(0.5, bpm)
+keypress("8", x, bpm)
+keypress("l", x, bpm)
+rest(0.5, bpm)
+keypress("e", x, bpm)
+keypress("z", x, bpm)
+rest(0.5, bpm)
+keypress("x", x, bpm)
+rest(0.5, bpm)
+keypress("5", x, bpm)
+keypress("x", x, bpm)
+rest(0.5, bpm)
+keypress("9", x, bpm)
+keypress("z", x, bpm)
+rest(0.5, bpm)
+keypress("r", x, bpm)
+keypress("z", x, bpm)
+rest(0.5, bpm)
+keypress("k", x, bpm)
+rest(0.5, bpm)
+keypress("8", x, bpm)
+keypress("k", x, bpm)
+rest(0.5, bpm)
+keypress("w", x, bpm)
+keypress("l", x, bpm)
+rest(0.5, bpm)
+keypress("u", x, bpm)
+keypress("l", x, bpm)
+rest(1, bpm)
+keypress("8", x, bpm)
+rest(0.5, bpm)
+keypress("w", x, bpm)
+rest(0.5, bpm)
+keypress("t", x, bpm)
+keypress("l", x, bpm)
+rest(0.5, bpm)
+keypress("u", x, bpm)
+keypress("k", x, bpm)
+rest(0.5, bpm)
+keypress("j", x, bpm)
+keypress("4", x, bpm)
+rest(0.5, bpm)
+keypress("8", x, bpm)
+rest(0.5, bpm)
+keypress("q", x, bpm)
+rest(0.5, bpm)
+keypress("e", x, bpm)
+rest(0.5, bpm)
+keypress("z", x, bpm)
+keypress("5", x, bpm)
+rest(0.5, bpm)
+keypress("q", x, bpm)
+rest(0.5, bpm)
+keypress("r", x, bpm)
+rest(0.5, bpm)
+keypress("w", x, bpm)
+keypress("k", x, bpm)
+rest(0.5, bpm)
+keypress("k", x, bpm)
+keypress("6", x, bpm)
+rest(0.5, bpm)
+keypress("l", x, bpm)
+keypress("0", x, bpm)
+rest(0.5, bpm)
+keypress("z", x, bpm)
+keypress("e", x, bpm)
+rest(0.5, bpm)
+keypress("h", x, bpm)
+keypress("8", x, bpm)
+rest(0.5, bpm)
+keypress("3", x, bpm)
+rest(0.5, bpm)
+keypress("0", x, bpm)
+rest(0.5, bpm)
+keypress("w", x, bpm)
+keypress("l", x, bpm)
+rest(0.5, bpm)
+keypress("r", x, bpm)
+keypress("k", x, bpm)
+rest(0.5, bpm)
+keypress("j", x, bpm)
+keypress("4", x, bpm)
+rest(0.5, bpm)
+keypress("x", x, bpm)
+keypress("q", x, bpm)
+rest(0.25, bpm)
+keypress("x", x, bpm)
+rest(0.25, bpm)
+keypress("e", x, bpm)
+rest(0.5, bpm)
+keypress("t", x, bpm)
+rest(0.5, bpm)
+keypress("5", x, bpm)
+keypress("j", x, bpm)
+rest(0.5, bpm)
+keypress("9", x, bpm)
+keypress("z", x, bpm)
+rest(0.25, bpm)
+keypress("z", x, bpm)
+rest(0.25, bpm)
+keypress("r", x, bpm)
+rest(0.5, bpm)
+keypress("q", x, bpm)
+keypress("l", x, bpm)
+rest(0.5, bpm)
+keypress("8", x, bpm)
+keypress("l", x, bpm)
+keypress("g", x, bpm)
+rest(0.5, bpm)
+keypress("w", x, bpm)
+rest(0.5, bpm)
+keypress("u", x, bpm)
+rest(0.5, bpm)
+keypress("t", x, bpm)
+rest(0.5, bpm)
+keypress("t", x, bpm)
+keypress("u", x, bpm)
+rest(1, bpm)
+keypress("j", x, bpm)
+rest(0.75, bpm)
+keypress("h", x, bpm)
+rest(0.25, bpm)
+keypress("j", x, bpm)
+keypress("4", x, bpm)
+rest(0.5, bpm)
+keypress("l", x, bpm)
+keypress("8", x, bpm)
+rest(0.5, bpm)
+keypress("z", x, bpm)
+keypress("e", x, bpm)
+rest(0.5, bpm)
+keypress("x", x, bpm)
+rest(0.5, bpm)
+keypress("x", x, bpm)
+keypress("5", x, bpm)
+rest(0.5, bpm)
+keypress("9", x, bpm)
+keypress("z", x, bpm)
+rest(0.5, bpm)
+keypress("r", x, bpm)
+keypress("z", x, bpm)
+rest(0.5, bpm)
+keypress("k", x, bpm)
+rest(0.5, bpm)
+keypress("k", x, bpm)
+keypress("6", x, bpm)
+rest(0.5, bpm)
+keypress("l", x, bpm)
+keypress("0", x, bpm)
+rest(0.5, bpm)
+keypress("l", x, bpm)
+keypress("t", x, bpm)
+rest(1, bpm)
+keypress("0", x, bpm)
+rest(0.5, bpm)
+keypress("w", x, bpm)
+rest(0.5, bpm)
+keypress("y", x, bpm)
+keypress("j", x, bpm)
+rest(0.75, bpm)
+keypress("h", x, bpm)
+rest(0.25, bpm)
+keypress("4", x, bpm)
+keypress("j", x, bpm)
+rest(0.5, bpm)
+keypress("8", x, bpm)
+keypress("l", x, bpm)
+rest(0.5, bpm)
+keypress("e", x, bpm)
+keypress("z", x, bpm)
+rest(0.5, bpm)
+keypress("x", x, bpm)
+rest(0.5, bpm)
+keypress("5", x, bpm)
+keypress("x", x, bpm)
+rest(0.5, bpm)
+keypress("9", x, bpm)
+keypress("z", x, bpm)
+rest(0.5, bpm)
+keypress("r", x, bpm)
+keypress("z", x, bpm)
+rest(0.5, bpm)
+keypress("k", x, bpm)
+rest(0.5, bpm)
+keypress("8", x, bpm)
+keypress("k", x, bpm)
+rest(0.5, bpm)
+keypress("w", x, bpm)
+keypress("l", x, bpm)
+rest(0.5, bpm)
+keypress("u", x, bpm)
+keypress("l", x, bpm)
+rest(1, bpm)
+keypress("8", x, bpm)
+rest(0.5, bpm)
+keypress("w", x, bpm)
+rest(0.5, bpm)
+keypress("t", x, bpm)
+keypress("l", x, bpm)
+rest(0.5, bpm)
+keypress("u", x, bpm)
+keypress("k", x, bpm)
+rest(0.5, bpm)
+keypress("j", x, bpm)
+keypress("4", x, bpm)
+rest(0.5, bpm)
+keypress("8", x, bpm)
+rest(0.5, bpm)
+keypress("q", x, bpm)
+rest(0.5, bpm)
+keypress("e", x, bpm)
+rest(0.5, bpm)
+keypress("z", x, bpm)
+keypress("5", x, bpm)
+rest(0.5, bpm)
+keypress("q", x, bpm)
+rest(0.5, bpm)
+keypress("r", x, bpm)
+rest(0.5, bpm)
+keypress("w", x, bpm)
+keypress("k", x, bpm)
+rest(0.5, bpm)
+keypress("k", x, bpm)
+keypress("6", x, bpm)
+rest(0.5, bpm)
+keypress("l", x, bpm)
+keypress("0", x, bpm)
+rest(0.5, bpm)
+keypress("z", x, bpm)
+keypress("e", x, bpm)
+rest(0.5, bpm)
+keypress("h", x, bpm)
+keypress("8", x, bpm)
+rest(0.5, bpm)
+keypress("3", x, bpm)
+rest(0.5, bpm)
+keypress("0", x, bpm)
+rest(0.5, bpm)
+keypress("w", x, bpm)
+keypress("l", x, bpm)
+rest(0.5, bpm)
+keypress("r", x, bpm)
+keypress("k", x, bpm)
+rest(0.5, bpm)
+keypress("j", x, bpm)
+keypress("4", x, bpm)
+rest(0.5, bpm)
+keypress("x", x, bpm)
+keypress("q", x, bpm)
+rest(0.25, bpm)
+keypress("x", x, bpm)
+rest(0.25, bpm)
+keypress("e", x, bpm)
+rest(0.5, bpm)
+keypress("t", x, bpm)
+rest(0.5, bpm)
+keypress("5", x, bpm)
+keypress("j", x, bpm)
+rest(0.5, bpm)
+keypress("9", x, bpm)
+keypress("z", x, bpm)
+rest(0.25, bpm)
+keypress("z", x, bpm)
+rest(0.25, bpm)
+keypress("r", x, bpm)
+rest(0.5, bpm)
+keypress("q", x, bpm)
+keypress("l", x, bpm)
+rest(0.5, bpm)
+keypress("8", x, bpm)
+keypress("l", x, bpm)
+keypress("g", x, bpm)
+rest(0.5, bpm)
+keypress("w", x, bpm)
+rest(0.5, bpm)
+keypress("u", x, bpm)
+rest(0.5, bpm)
+keypress("t", x, bpm)
+rest(0.5, bpm)
+keypress("u", x, bpm)
+keypress("t", x, bpm)
+rest(1, bpm)
+keypress("x", x, bpm)
+rest(0.5, bpm)
+keypress("c", x, bpm)
+rest(0.25, bpm)
+keypress("v", x, bpm)
+rest(0.25, bpm)
+keypress("4", x, bpm)
+rest(0.5, bpm)
+keypress("8", x, bpm)
+rest(0.5, bpm)
+keypress("x", x, bpm)
+keypress("w", x, bpm)
+rest(0.5, bpm)
+keypress("c", x, bpm)
+keypress("8", x, bpm)
+rest(0.25, bpm)
+keypress("v", x, bpm)
+rest(0.25, bpm)
+keypress("5", x, bpm)
+rest(0.5, bpm)
+keypress("9", x, bpm)
+rest(0.5, bpm)
+keypress("x", x, bpm)
+keypress("w", x, bpm)
+rest(0.5, bpm)
+keypress("c", x, bpm)
+keypress("9", x, bpm)
+rest(0.25, bpm)
+keypress("v", x, bpm)
+rest(0.25, bpm)
+keypress("6", x, bpm)
+rest(0.5, bpm)
+keypress("v", x, bpm)
+keypress("0", x, bpm)
+rest(0.5, bpm)
+keypress("x", x, bpm)
+keypress("w", x, bpm)
+rest(0.5, bpm)
+keypress("b", x, bpm)
+keypress("0", x, bpm)
+rest(0.25, bpm)
+keypress("v", x, bpm)
+rest(0.25, bpm)
+keypress("3", x, bpm)
+rest(0.5, bpm)
+keypress("v", x, bpm)
+keypress("9", x, bpm)
+rest(0.5, bpm)
+keypress("x", x, bpm)
+keypress("w", x, bpm)
+rest(0.25, bpm)
+keypress("z", x, bpm)
+rest(0.25, bpm)
+keypress("l", x, bpm)
+keypress("9", x, bpm)
+rest(0.5, bpm)
+keypress("z", x, bpm)
+keypress("4", x, bpm)
+rest(0.5, bpm)
+keypress("8", x, bpm)
+rest(0.25, bpm)
+keypress("j", x, bpm)
+rest(0.25, bpm)
+keypress("x", x, bpm)
+keypress("w", x, bpm)
+rest(0.25, bpm)
+keypress("z", x, bpm)
+rest(0.25, bpm)
+keypress("l", x, bpm)
+keypress("8", x, bpm)
+rest(0.5, bpm)
+keypress("z", x, bpm)
+keypress("5", x, bpm)
+rest(0.5, bpm)
+keypress("l", x, bpm)
+keypress("9", x, bpm)
+rest(0.25, bpm)
+keypress("z", x, bpm)
+rest(0.25, bpm)
+keypress("w", x, bpm)
+rest(0.25, bpm)
+keypress("v", x, bpm)
+rest(0.25, bpm)
+keypress("9", x, bpm)
+rest(0.5, bpm)
+keypress("x", x, bpm)
+keypress("8", x, bpm)
+rest(0.5, bpm)
+keypress("w", x, bpm)
+rest(0.5, bpm)
+keypress("t", x, bpm)
+rest(0.5, bpm)
+keypress("w", x, bpm)
+rest(0.5, bpm)
+keypress("u", x, bpm)
+rest(0.5, bpm)
+keypress("w", x, bpm)
+rest(0.5, bpm)
+keypress("t", x, bpm)
+keypress("x", x, bpm)
+rest(0.5, bpm)
+keypress("c", x, bpm)
+rest(0.25, bpm)
+keypress("v", x, bpm)
+rest(0.25, bpm)
+keypress("4", x, bpm)
+rest(0.5, bpm)
+keypress("8", x, bpm)
+rest(0.5, bpm)
+keypress("x", x, bpm)
+keypress("w", x, bpm)
+rest(0.5, bpm)
+keypress("c", x, bpm)
+keypress("8", x, bpm)
+rest(0.25, bpm)
+keypress("v", x, bpm)
+rest(0.25, bpm)
+keypress("5", x, bpm)
+rest(0.5, bpm)
+keypress("9", x, bpm)
+rest(0.5, bpm)
+keypress("x", x, bpm)
+keypress("w", x, bpm)
+rest(0.5, bpm)
+keypress("c", x, bpm)
+keypress("9", x, bpm)
+rest(0.25, bpm)
+keypress("v", x, bpm)
+rest(0.25, bpm)
+keypress("6", x, bpm)
+rest(0.5, bpm)
+keypress("v", x, bpm)
+keypress("0", x, bpm)
+rest(0.5, bpm)
+keypress("x", x, bpm)
+keypress("w", x, bpm)
+rest(0.5, bpm)
+keypress("b", x, bpm)
+keypress("0", x, bpm)
+rest(0.25, bpm)
+keypress("v", x, bpm)
+rest(0.25, bpm)
+keypress("3", x, bpm)
+rest(0.5, bpm)
+keypress("v", x, bpm)
+keypress("9", x, bpm)
+rest(0.5, bpm)
+keypress("x", x, bpm)
+keypress("w", x, bpm)
+rest(0.25, bpm)
+keypress("z", x, bpm)
+rest(0.25, bpm)
+keypress("l", x, bpm)
+keypress("9", x, bpm)
+rest(0.5, bpm)
+keypress("z", x, bpm)
+keypress("4", x, bpm)
+rest(0.5, bpm)
+keypress("8", x, bpm)
+rest(0.25, bpm)
+keypress("j", x, bpm)
+rest(0.25, bpm)
+keypress("x", x, bpm)
+keypress("w", x, bpm)
+rest(0.25, bpm)
+keypress("z", x, bpm)
+rest(0.25, bpm)
+keypress("l", x, bpm)
+keypress("8", x, bpm)
+rest(0.5, bpm)
+keypress("z", x, bpm)
+keypress("5", x, bpm)
+rest(0.5, bpm)
+keypress("z", x, bpm)
+keypress("9", x, bpm)
+rest(0.25, bpm)
+keypress("z", x, bpm)
+rest(0.25, bpm)
+keypress("w", x, bpm)
+keypress("x", x, bpm)
+rest(0.25, bpm)
+keypress("z", x, bpm)
+rest(0.25, bpm)
+keypress("9", x, bpm)
+keypress("l", x, bpm)
+rest(0.5, bpm)
+keypress("l", x, bpm)
+keypress("g", x, bpm)
+keypress("8", x, bpm)
+rest(0.5, bpm)
+keypress("w", x, bpm)
+rest(0.5, bpm)
+keypress("t", x, bpm)
+rest(0.5, bpm)
+keypress("w", x, bpm)
+rest(0.5, bpm)
+keypress("t", x, bpm)
+keypress("u", x, bpm)
+rest(0.5, bpm)
+keypress("l", x, bpm)
+rest(0.5, bpm)
+keypress("z", x, bpm)
+rest(0.5, bpm)
+keypress("x", x, bpm)
+rest(0.5, bpm)
+keypress("j", x, bpm)
+keypress("4", x, bpm)
+rest(0.5, bpm)
+keypress("8", x, bpm)
+rest(0.5, bpm)
+keypress("e", x, bpm)
+rest(0.5, bpm)
+keypress("8", x, bpm)
+rest(0.5, bpm)
+keypress("5", x, bpm)
+keypress("z", x, bpm)
+rest(0.5, bpm)
+keypress("9", x, bpm)
+rest(0.5, bpm)
+keypress("r", x, bpm)
+rest(0.5, bpm)
+keypress("9", x, bpm)
+keypress("z", x, bpm)
+rest(0.5, bpm)
+keypress("6", x, bpm)
+keypress("z", x, bpm)
+rest(0.5, bpm)
+keypress("0", x, bpm)
+keypress("x", x, bpm)
+rest(0.5, bpm)
+keypress("t", x, bpm)
+keypress("v", x, bpm)
+rest(0.5, bpm)
+keypress("0", x, bpm)
+keypress("x", x, bpm)
+rest(0.5, bpm)
+keypress("3", x, bpm)
+rest(0.5, bpm)
+keypress("l", x, bpm)
+keypress("7", x, bpm)
+rest(0.5, bpm)
+keypress("z", x, bpm)
+keypress("w", x, bpm)
+rest(0.5, bpm)
+keypress("x", x, bpm)
+keypress("7", x, bpm)
+rest(0.5, bpm)
+keypress("j", x, bpm)
+keypress("4", x, bpm)
+rest(0.5, bpm)
+keypress("8", x, bpm)
+rest(0.5, bpm)
+keypress("e", x, bpm)
+rest(0.5, bpm)
+keypress("8", x, bpm)
+rest(0.5, bpm)
+keypress("z", x, bpm)
+keypress("5", x, bpm)
+rest(0.5, bpm)
+keypress("9", x, bpm)
+rest(0.5, bpm)
+keypress("r", x, bpm)
+rest(0.5, bpm)
+keypress("9", x, bpm)
+keypress("k", x, bpm)
+rest(0.5, bpm)
+keypress("k", x, bpm)
+keypress("8", x, bpm)
+rest(0.5, bpm)
+keypress("l", x, bpm)
+keypress("w", x, bpm)
+rest(0.5, bpm)
+keypress("l", x, bpm)
+keypress("t", x, bpm)
+rest(0.5, bpm)
+keypress("y", x, bpm)
+rest(0.5, bpm)
+keypress("u", x, bpm)
+keypress("t", x, bpm)
+rest(0.5, bpm)
+keypress("l", x, bpm)
+rest(0.5, bpm)
+keypress("z", x, bpm)
+rest(0.5, bpm)
+keypress("x", x, bpm)
+rest(0.5, bpm)
+keypress("j", x, bpm)
+keypress("4", x, bpm)
+rest(0.5, bpm)
+keypress("8", x, bpm)
+rest(0.5, bpm)
+keypress("e", x, bpm)
+rest(0.5, bpm)
+keypress("8", x, bpm)
+rest(0.5, bpm)
+keypress("z", x, bpm)
+keypress("5", x, bpm)
+rest(0.5, bpm)
+keypress("9", x, bpm)
+rest(0.5, bpm)
+keypress("r", x, bpm)
+rest(0.5, bpm)
+keypress("z", x, bpm)
+keypress("9", x, bpm)
+rest(0.5, bpm)
+keypress("z", x, bpm)
+keypress("6", x, bpm)
+rest(0.5, bpm)
+keypress("x", x, bpm)
+keypress("0", x, bpm)
+rest(0.5, bpm)
+keypress("v", x, bpm)
+keypress("t", x, bpm)
+rest(0.5, bpm)
+keypress("x", x, bpm)
+keypress("0", x, bpm)
+rest(0.5, bpm)
+keypress("3", x, bpm)
+rest(0.5, bpm)
+keypress("l", x, bpm)
+keypress("7", x, bpm)
+rest(0.5, bpm)
+keypress("z", x, bpm)
+keypress("w", x, bpm)
+rest(0.5, bpm)
+keypress("x", x, bpm)
+keypress("7", x, bpm)
+rest(0.5, bpm)
+keypress("j", x, bpm)
+keypress("4", x, bpm)
+rest(0.5, bpm)
+keypress("8", x, bpm)
+rest(0.5, bpm)
+keypress("e", x, bpm)
+rest(0.5, bpm)
+keypress("8", x, bpm)
+rest(0.5, bpm)
+keypress("z", x, bpm)
+keypress("5", x, bpm)
+rest(0.5, bpm)
+keypress("9", x, bpm)
+rest(0.5, bpm)
+keypress("r", x, bpm)
+rest(0.5, bpm)
+keypress("k", x, bpm)
+keypress("9", x, bpm)
+rest(0.5, bpm)
+keypress("k", x, bpm)
+keypress("8", x, bpm)
+rest(0.5, bpm)
+keypress("l", x, bpm)
+keypress("w", x, bpm)
+rest(0.5, bpm)
+keypress("l", x, bpm)
+keypress("t", x, bpm)
+rest(0.5, bpm)
+keypress("y", x, bpm)
+rest(0.5, bpm)
+keypress("t", x, bpm)
+keypress("u", x, bpm)
+rest(1, bpm)
+keypress("t", x, bpm)
+keypress("w", x, bpm)
+rest(0.75, bpm)
+keypress("f", x, bpm)
+rest(0.25, bpm)
+keypress("l", x, bpm)
+keypress("4", x, bpm)
+rest(0.5, bpm)
+keypress("l", x, bpm)
+keypress("8", x, bpm)
+rest(0.25, bpm)
+keypress("l", x, bpm)
+rest(0.25, bpm)
+keypress("w", x, bpm)
+rest(0.25, bpm)
+keypress("k", x, bpm)
+rest(0.25, bpm)
+keypress("k", x, bpm)
+keypress("8", x, bpm)
+rest(0.25, bpm)
+keypress("l", x, bpm)
+rest(0.25, bpm)
+keypress("k", x, bpm)
+keypress("5", x, bpm)
+rest(0.5, bpm)
+keypress("k", x, bpm)
+keypress("9", x, bpm)
+rest(0.25, bpm)
+keypress("j", x, bpm)
+rest(0.25, bpm)
+keypress("k", x, bpm)
+keypress("e", x, bpm)
+rest(0.5, bpm)
+keypress("9", x, bpm)
+rest(0.5, bpm)
+keypress("6", x, bpm)
+keypress("l", x, bpm)
+rest(0.5, bpm)
+keypress("0", x, bpm)
+keypress("l", x, bpm)
+rest(0.5, bpm)
+keypress("r", x, bpm)
+keypress("l", x, bpm)
+rest(0.25, bpm)
+keypress("l", x, bpm)
+rest(0.25, bpm)
+keypress("0", x, bpm)
+keypress("l", x, bpm)
+rest(0.5, bpm)
+keypress("3", x, bpm)
+keypress("k", x, bpm)
+rest(0.5, bpm)
+keypress("9", x, bpm)
+keypress("k", x, bpm)
+rest(0.25, bpm)
+keypress("j", x, bpm)
+rest(0.25, bpm)
+keypress("w", x, bpm)
+keypress("k", x, bpm)
+rest(0.5, bpm)
+keypress("9", x, bpm)
+rest(0.5, bpm)
+keypress("4", x, bpm)
+rest(0.25, bpm)
+keypress("l", x, bpm)
+rest(0.25, bpm)
+keypress("l", x, bpm)
+keypress("8", x, bpm)
+rest(0.25, bpm)
+keypress("l", x, bpm)
+rest(0.25, bpm)
+keypress("l", x, bpm)
+keypress("w", x, bpm)
+rest(0.25, bpm)
+keypress("h", x, bpm)
+rest(0.25, bpm)
+keypress("8", x, bpm)
+rest(0.25, bpm)
+keypress("l", x, bpm)
+rest(0.25, bpm)
+keypress("5", x, bpm)
+keypress("l", x, bpm)
+rest(0.25, bpm)
+keypress("l", x, bpm)
+rest(0.25, bpm)
+keypress("9", x, bpm)
+keypress("l", x, bpm)
+rest(0.25, bpm)
+keypress("l", x, bpm)
+rest(0.25, bpm)
+keypress("e", x, bpm)
+keypress("l", x, bpm)
+rest(0.25, bpm)
+keypress("h", x, bpm)
+rest(0.25, bpm)
+keypress("9", x, bpm)
+rest(0.25, bpm)
+keypress("h", x, bpm)
+rest(0.25, bpm)
+keypress("6", x, bpm)
+keypress("l", x, bpm)
+rest(0.25, bpm)
+keypress("h", x, bpm)
+rest(0.25, bpm)
+keypress("w", x, bpm)
+rest(0.25, bpm)
+keypress("h", x, bpm)
+rest(0.25, bpm)
+keypress("t", x, bpm)
+keypress("l", x, bpm)
+rest(0.25, bpm)
+keypress("h", x, bpm)
+rest(0.25, bpm)
+keypress("u", x, bpm)
+rest(0.25, bpm)
+keypress("h", x, bpm)
+rest(0.25, bpm)
+keypress("l", x, bpm)
+keypress("w", x, bpm)
+rest(0.25, bpm)
+keypress("l", x, bpm)
+rest(0.25, bpm)
+keypress("h", x, bpm)
+keypress("t", x, bpm)
+rest(0.25, bpm)
+keypress("h", x, bpm)
+rest(0.25, bpm)
+keypress("l", x, bpm)
+keypress("u", x, bpm)
+rest(0.25, bpm)
+keypress("h", x, bpm)
+rest(0.25, bpm)
+keypress("t", x, bpm)
+rest(0.5, bpm)
+keypress("x", x, bpm)
+keypress("4", x, bpm)
+rest(0.375, bpm)
+keypress("l", x, bpm)
+rest(0.125, bpm)
+keypress("l", x, bpm)
+keypress("8", x, bpm)
+rest(0.25, bpm)
+keypress("l", x, bpm)
+rest(0.25, bpm)
+keypress("l", x, bpm)
+keypress("w", x, bpm)
+rest(0.25, bpm)
+keypress("z", x, bpm)
+rest(0.25, bpm)
+keypress("8", x, bpm)
+rest(0.5, bpm)
+keypress("5", x, bpm)
+keypress("x", x, bpm)
+rest(0.375, bpm)
+keypress("l", x, bpm)
+rest(0.125, bpm)
+keypress("9", x, bpm)
+keypress("l", x, bpm)
+rest(0.25, bpm)
+keypress("l", x, bpm)
+rest(0.25, bpm)
+keypress("w", x, bpm)
+keypress("l", x, bpm)
+rest(0.25, bpm)
+keypress("z", x, bpm)
+rest(0.25, bpm)
+keypress("9", x, bpm)
+rest(0.25, bpm)
+keypress("j", x, bpm)
+rest(0.25, bpm)
+keypress("6", x, bpm)
+keypress("x", x, bpm)
+rest(0.375, bpm)
+keypress("l", x, bpm)
+rest(0.125, bpm)
+keypress("0", x, bpm)
+keypress("l", x, bpm)
+rest(0.25, bpm)
+keypress("l", x, bpm)
+rest(0.25, bpm)
+keypress("w", x, bpm)
+keypress("l", x, bpm)
+rest(0.25, bpm)
+keypress("z", x, bpm)
+rest(0.25, bpm)
+keypress("0", x, bpm)
+rest(0.25, bpm)
+keypress("j", x, bpm)
+rest(0.125, bpm)
+keypress("j", x, bpm)
+rest(0.125, bpm)
+keypress("x", x, bpm)
+keypress("3", x, bpm)
+rest(0.375, bpm)
+keypress("l", x, bpm)
+rest(0.125, bpm)
+keypress("l", x, bpm)
+keypress("9", x, bpm)
+rest(0.25, bpm)
+keypress("l", x, bpm)
+rest(0.25, bpm)
+keypress("l", x, bpm)
+keypress("w", x, bpm)
+rest(0.25, bpm)
+keypress("z", x, bpm)
+rest(0.25, bpm)
+keypress("9", x, bpm)
+rest(0.25, bpm)
+keypress("j", x, bpm)
+rest(0.25, bpm)
+keypress("l", x, bpm)
+keypress("4", x, bpm)
+rest(0.375, bpm)
+keypress("l", x, bpm)
+rest(0.125, bpm)
+keypress("l", x, bpm)
+keypress("8", x, bpm)
+rest(0.25, bpm)
+keypress("l", x, bpm)
+rest(0.25, bpm)
+keypress("w", x, bpm)
+rest(0.25, bpm)
+keypress("l", x, bpm)
+rest(0.25, bpm)
+keypress("f", x, bpm)
+keypress("8", x, bpm)
+rest(0.25, bpm)
+keypress("f", x, bpm)
+rest(0.25, bpm)
+keypress("5", x, bpm)
+keypress("l", x, bpm)
+rest(0.375, bpm)
+keypress("l", x, bpm)
+rest(0.125, bpm)
+keypress("9", x, bpm)
+keypress("l", x, bpm)
+rest(0.25, bpm)
+keypress("l", x, bpm)
+rest(0.25, bpm)
+keypress("w", x, bpm)
+rest(0.25, bpm)
+keypress("l", x, bpm)
+rest(0.25, bpm)
+keypress("9", x, bpm)
+keypress("f", x, bpm)
+rest(0.25, bpm)
+keypress("f", x, bpm)
+rest(0.25, bpm)
+keypress("l", x, bpm)
+keypress("8", x, bpm)
+rest(0.5, bpm)
+keypress("l", x, bpm)
+keypress("w", x, bpm)
+rest(0.25, bpm)
+keypress("l", x, bpm)
+rest(0.25, bpm)
+keypress("l", x, bpm)
+keypress("t", x, bpm)
+rest(0.25, bpm)
+keypress("l", x, bpm)
+rest(0.25, bpm)
+keypress("z", x, bpm)
+keypress("y", x, bpm)
+rest(0.5, bpm)
+keypress("l", x, bpm)
+keypress("u", x, bpm)
+keypress("t", x, bpm)
+rest(1, bpm)
+keypress("x", x, bpm)
+rest(0.5, bpm)
+keypress("c", x, bpm)
+rest(0.25, bpm)
+keypress("v", x, bpm)
+rest(0.25, bpm)
+keypress("4", x, bpm)
+rest(0.5, bpm)
+keypress("8", x, bpm)
+rest(0.5, bpm)
+keypress("x", x, bpm)
+keypress("w", x, bpm)
+rest(0.5, bpm)
+keypress("c", x, bpm)
+keypress("8", x, bpm)
+rest(0.25, bpm)
+keypress("v", x, bpm)
+rest(0.25, bpm)
+keypress("5", x, bpm)
+rest(0.5, bpm)
+keypress("9", x, bpm)
+rest(0.5, bpm)
+keypress("x", x, bpm)
+keypress("w", x, bpm)
+rest(0.5, bpm)
+keypress("c", x, bpm)
+keypress("9", x, bpm)
+rest(0.25, bpm)
+keypress("v", x, bpm)
+rest(0.25, bpm)
+keypress("6", x, bpm)
+rest(0.5, bpm)
+keypress("v", x, bpm)
+keypress("0", x, bpm)
+rest(0.5, bpm)
+keypress("x", x, bpm)
+keypress("w", x, bpm)
+rest(0.5, bpm)
+keypress("b", x, bpm)
+keypress("0", x, bpm)
+rest(0.25, bpm)
+keypress("v", x, bpm)
+rest(0.25, bpm)
+keypress("3", x, bpm)
+rest(0.5, bpm)
+keypress("v", x, bpm)
+keypress("9", x, bpm)
+rest(0.5, bpm)
+keypress("x", x, bpm)
+keypress("w", x, bpm)
+rest(0.25, bpm)
+keypress("z", x, bpm)
+rest(0.25, bpm)
+keypress("l", x, bpm)
+keypress("9", x, bpm)
+rest(0.5, bpm)
+keypress("z", x, bpm)
+keypress("4", x, bpm)
+rest(0.5, bpm)
+keypress("8", x, bpm)
+rest(0.25, bpm)
+keypress("j", x, bpm)
+rest(0.25, bpm)
+keypress("x", x, bpm)
+keypress("w", x, bpm)
+rest(0.25, bpm)
+keypress("z", x, bpm)
+rest(0.25, bpm)
+keypress("l", x, bpm)
+keypress("8", x, bpm)
+rest(0.5, bpm)
+keypress("z", x, bpm)
+keypress("5", x, bpm)
+rest(0.5, bpm)
+keypress("l", x, bpm)
+keypress("9", x, bpm)
+rest(0.25, bpm)
+keypress("z", x, bpm)
+rest(0.25, bpm)
+keypress("w", x, bpm)
+rest(0.25, bpm)
+keypress("v", x, bpm)
+rest(0.25, bpm)
+keypress("9", x, bpm)
+rest(0.5, bpm)
+keypress("x", x, bpm)
+keypress("8", x, bpm)
+rest(0.5, bpm)
+keypress("w", x, bpm)
+rest(0.5, bpm)
+keypress("t", x, bpm)
+rest(0.5, bpm)
+keypress("w", x, bpm)
+rest(0.5, bpm)
+keypress("u", x, bpm)
+rest(0.5, bpm)
+keypress("w", x, bpm)
+rest(0.5, bpm)
+keypress("x", x, bpm)
+keypress("t", x, bpm)
+rest(0.5, bpm)
+keypress("c", x, bpm)
+rest(0.25, bpm)
+keypress("v", x, bpm)
+rest(0.25, bpm)
+keypress("4", x, bpm)
+rest(0.5, bpm)
+keypress("8", x, bpm)
+rest(0.5, bpm)
+keypress("x", x, bpm)
+keypress("w", x, bpm)
+rest(0.5, bpm)
+keypress("c", x, bpm)
+keypress("8", x, bpm)
+rest(0.25, bpm)
+keypress("v", x, bpm)
+rest(0.25, bpm)
+keypress("5", x, bpm)
+rest(0.5, bpm)
+keypress("9", x, bpm)
+rest(0.5, bpm)
+keypress("x", x, bpm)
+keypress("w", x, bpm)
+rest(0.5, bpm)
+keypress("c", x, bpm)
+keypress("9", x, bpm)
+rest(0.25, bpm)
+keypress("v", x, bpm)
+rest(0.25, bpm)
+keypress("6", x, bpm)
+rest(0.5, bpm)
+keypress("v", x, bpm)
+keypress("0", x, bpm)
+rest(0.5, bpm)
+keypress("x", x, bpm)
+keypress("w", x, bpm)
+rest(0.5, bpm)
+keypress("b", x, bpm)
+keypress("0", x, bpm)
+rest(0.25, bpm)
+keypress("v", x, bpm)
+rest(0.25, bpm)
+keypress("3", x, bpm)
+rest(0.5, bpm)
+keypress("v", x, bpm)
+keypress("9", x, bpm)
+rest(0.5, bpm)
+keypress("x", x, bpm)
+keypress("w", x, bpm)
+rest(0.25, bpm)
+keypress("z", x, bpm)
+rest(0.25, bpm)
+keypress("l", x, bpm)
+keypress("9", x, bpm)
+rest(0.5, bpm)
+keypress("z", x, bpm)
+keypress("4", x, bpm)
+rest(0.5, bpm)
+keypress("8", x, bpm)
+rest(0.25, bpm)
+keypress("j", x, bpm)
+rest(0.25, bpm)
+keypress("x", x, bpm)
+keypress("w", x, bpm)
+rest(0.25, bpm)
+keypress("z", x, bpm)
+rest(0.25, bpm)
+keypress("l", x, bpm)
+keypress("8", x, bpm)
+rest(0.5, bpm)
+keypress("z", x, bpm)
+keypress("5", x, bpm)
+rest(0.5, bpm)
+keypress("z", x, bpm)
+keypress("9", x, bpm)
+rest(0.25, bpm)
+keypress("z", x, bpm)
+rest(0.25, bpm)
+keypress("x", x, bpm)
+keypress("w", x, bpm)
+rest(0.25, bpm)
+keypress("z", x, bpm)
+rest(0.25, bpm)
+keypress("l", x, bpm)
+keypress("9", x, bpm)
+rest(0.5, bpm)
+keypress("l", x, bpm)
+keypress("g", x, bpm)
+keypress("8", x, bpm)
+rest(0.5, bpm)
+keypress("w", x, bpm)
+rest(0.5, bpm)
+keypress("t", x, bpm)
+rest(0.5, bpm)
+keypress("w", x, bpm)
+rest(0.5, bpm)
+keypress("t", x, bpm)
+keypress("u", x, bpm)
+rest(0.5, bpm)
+keypress("x", x, bpm)
+rest(0.5, bpm)
+keypress("z", x, bpm)
+rest(0.25, bpm)
+keypress("l", x, bpm)
+rest(0.25, bpm)
+keypress("j", x, bpm)
+rest(0.5, bpm)
+keypress("l", x, bpm)
+keypress("4", x, bpm)
+rest(0.5, bpm)
+keypress("x", x, bpm)
+keypress("8", x, bpm)
+rest(0.5, bpm)
+keypress("e", x, bpm)
+rest(0.5, bpm)
+keypress("j", x, bpm)
+rest(0.5, bpm)
+keypress("5", x, bpm)
+rest(0.25, bpm)
+keypress("h", x, bpm)
+rest(0.25, bpm)
+keypress("j", x, bpm)
+keypress("9", x, bpm)
+rest(0.5, bpm)
+keypress("h", x, bpm)
+keypress("r", x, bpm)
+rest(1, bpm)
+keypress("v", x, bpm)
+keypress("6", x, bpm)
+rest(0.5, bpm)
+keypress("0", x, bpm)
+rest(0.5, bpm)
+keypress("x", x, bpm)
+keypress("t", x, bpm)
+rest(1, bpm)
+keypress("z", x, bpm)
+keypress("0", x, bpm)
+rest(0.5, bpm)
+keypress("x", x, bpm)
+keypress("w", x, bpm)
+rest(0.5, bpm)
+keypress("z", x, bpm)
+keypress("r", x, bpm)
+rest(0.25, bpm)
+keypress("l", x, bpm)
+rest(0.25, bpm)
+keypress("j", x, bpm)
+rest(0.5, bpm)
+keypress("l", x, bpm)
+keypress("4", x, bpm)
+rest(0.5, bpm)
+keypress("x", x, bpm)
+keypress("8", x, bpm)
+rest(0.5, bpm)
+keypress("e", x, bpm)
+rest(0.5, bpm)
+keypress("j", x, bpm)
+rest(0.5, bpm)
+keypress("5", x, bpm)
+rest(0.25, bpm)
+keypress("h", x, bpm)
+rest(0.25, bpm)
+keypress("j", x, bpm)
+keypress("9", x, bpm)
+rest(0.5, bpm)
+keypress("h", x, bpm)
+keypress("r", x, bpm)
+rest(1, bpm)
+keypress("v", x, bpm)
+keypress("8", x, bpm)
+rest(0.5, bpm)
+keypress("w", x, bpm)
+rest(0.5, bpm)
+keypress("x", x, bpm)
+keypress("t", x, bpm)
+rest(0.5, bpm)
+keypress("w", x, bpm)
+rest(0.5, bpm)
+keypress("z", x, bpm)
+keypress("u", x, bpm)
+rest(0.5, bpm)
+keypress("w", x, bpm)
+rest(0.5, bpm)
+keypress("x", x, bpm)
+keypress("t", x, bpm)
+rest(0.5, bpm)
+keypress("w", x, bpm)
+rest(0.5, bpm)
+keypress("4", x, bpm)
+keypress("b", x, bpm)
+rest(0.5, bpm)
+keypress("8", x, bpm)
+rest(0.5, bpm)
+keypress("e", x, bpm)
+rest(1, bpm)
+keypress("5", x, bpm)
+rest(0.5, bpm)
+keypress("9", x, bpm)
+rest(0.5, bpm)
+keypress("r", x, bpm)
+keypress("n", x, bpm)
+rest(0.5, bpm)
+keypress("b", x, bpm)
+rest(0.5, bpm)
+keypress("6", x, bpm)
+keypress("v", x, bpm)
+rest(0.5, bpm)
+keypress("0", x, bpm)
+rest(0.5, bpm)
+keypress("t", x, bpm)
+keypress("x", x, bpm)
+rest(1, bpm)
+keypress("3", x, bpm)
+rest(0.5, bpm)
+keypress("7", x, bpm)
+keypress("v", x, bpm)
+rest(0.5, bpm)
+keypress("w", x, bpm)
+keypress("x", x, bpm)
+rest(0.5, bpm)
+keypress("z", x, bpm)
+rest(0.5, bpm)
+keypress("z", x, bpm)
+keypress("4", x, bpm)
+rest(0.5, bpm)
+keypress("x", x, bpm)
+keypress("8", x, bpm)
+rest(0.25, bpm)
+keypress("l", x, bpm)
+rest(0.25, bpm)
+keypress("e", x, bpm)
+rest(0.75, bpm)
+keypress("l", x, bpm)
+rest(0.25, bpm)
+keypress("5", x, bpm)
+keypress("z", x, bpm)
+rest(0.5, bpm)
+keypress("9", x, bpm)
+keypress("z", x, bpm)
+rest(0.25, bpm)
+keypress("z", x, bpm)
+rest(0.25, bpm)
+keypress("r", x, bpm)
+rest(0.25, bpm)
+keypress("l", x, bpm)
+rest(0.25, bpm)
+keypress("9", x, bpm)
+keypress("l", x, bpm)
+rest(0.5, bpm)
+keypress("l", x, bpm)
+keypress("8", x, bpm)
+rest(0.5, bpm)
+keypress("w", x, bpm)
+rest(0.5, bpm)
+keypress("t", x, bpm)
+keypress("u", x, bpm)
+rest(2, bpm)
+keypress("x", x, bpm)
+rest(0.5, bpm)
+keypress("c", x, bpm)
+rest(0.25, bpm)
+keypress("v", x, bpm)
+rest(0.25, bpm)
+keypress("u", x, bpm)
+keypress("e", x, bpm)
+keypress("q", x, bpm)
+rest(1, bpm)
+keypress("x", x, bpm)
+rest(0.5, bpm)
+keypress("c", x, bpm)
+rest(0.25, bpm)
+keypress("v", x, bpm)
+rest(0.25, bpm)
+keypress("y", x, bpm)
+keypress("r", x, bpm)
+keypress("w", x, bpm)
+rest(1, bpm)
+keypress("x", x, bpm)
+rest(0.5, bpm)
+keypress("c", x, bpm)
+rest(0.25, bpm)
+keypress("v", x, bpm)
+rest(0.25, bpm)
+keypress("u", x, bpm)
+keypress("t", x, bpm)
+keypress("e", x, bpm)
+rest(0.5, bpm)
+keypress("v", x, bpm)
+rest(0.5, bpm)
+keypress("x", x, bpm)
+rest(0.5, bpm)
+keypress("b", x, bpm)
+rest(0.25, bpm)
+keypress("v", x, bpm)
+rest(0.25, bpm)
+keypress("y", x, bpm)
+keypress("w", x, bpm)
+keypress("0", x, bpm)
+rest(0.5, bpm)
+keypress("v", x, bpm)
+rest(0.5, bpm)
+keypress("x", x, bpm)
+rest(0.25, bpm)
+keypress("z", x, bpm)
+rest(0.25, bpm)
+keypress("l", x, bpm)
+rest(0.5, bpm)
+keypress("t", x, bpm)
+keypress("e", x, bpm)
+keypress("q", x, bpm)
+keypress("z", x, bpm)
+rest(0.75, bpm)
+keypress("j", x, bpm)
+rest(0.25, bpm)
+keypress("x", x, bpm)
+rest(0.25, bpm)
+keypress("z", x, bpm)
+rest(0.25, bpm)
+keypress("l", x, bpm)
+rest(0.5, bpm)
+keypress("y", x, bpm)
+keypress("r", x, bpm)
+keypress("w", x, bpm)
+keypress("z", x, bpm)
+rest(0.5, bpm)
+keypress("l", x, bpm)
+rest(0.25, bpm)
+keypress("z", x, bpm)
+rest(0.5, bpm)
+keypress("v", x, bpm)
+rest(0.75, bpm)
+keypress("x", x, bpm)
+keypress("t", x, bpm)
+keypress("w", x, bpm)
+keypress("8", x, bpm)
+rest(3, bpm)
+keypress("x", x, bpm)
+rest(0.5, bpm)
+keypress("c", x, bpm)
+rest(0.25, bpm)
+keypress("v", x, bpm)
+rest(0.25, bpm)
+keypress("u", x, bpm)
+keypress("e", x, bpm)
+keypress("q", x, bpm)
+rest(1, bpm)
+keypress("x", x, bpm)
+rest(0.5, bpm)
+keypress("c", x, bpm)
+rest(0.25, bpm)
+keypress("v", x, bpm)
+rest(0.25, bpm)
+keypress("y", x, bpm)
+keypress("r", x, bpm)
+keypress("w", x, bpm)
+rest(1, bpm)
+keypress("x", x, bpm)
+rest(0.5, bpm)
+keypress("c", x, bpm)
+rest(0.25, bpm)
+keypress("v", x, bpm)
+rest(0.25, bpm)
+keypress("u", x, bpm)
+keypress("t", x, bpm)
+keypress("e", x, bpm)
+rest(0.5, bpm)
+keypress("v", x, bpm)
+rest(0.5, bpm)
+keypress("x", x, bpm)
+rest(0.5, bpm)
+keypress("b", x, bpm)
+rest(0.25, bpm)
+keypress("v", x, bpm)
+rest(0.25, bpm)
+keypress("y", x, bpm)
+keypress("w", x, bpm)
+keypress("0", x, bpm)
+rest(0.5, bpm)
+keypress("v", x, bpm)
+rest(0.5, bpm)
+keypress("x", x, bpm)
+rest(0.25, bpm)
+keypress("z", x, bpm)
+rest(0.25, bpm)
+keypress("l", x, bpm)
+rest(0.5, bpm)
+keypress("t", x, bpm)
+keypress("e", x, bpm)
+keypress("q", x, bpm)
+keypress("z", x, bpm)
+rest(0.75, bpm)
+keypress("j", x, bpm)
+rest(0.25, bpm)
+keypress("x", x, bpm)
+rest(0.25, bpm)
+keypress("z", x, bpm)
+rest(0.25, bpm)
+keypress("l", x, bpm)
+rest(0.5, bpm)
+keypress("i", x, bpm)
+keypress("w", x, bpm)
+keypress("z", x, bpm)
+rest(0.5, bpm)
+keypress("x", x, bpm)
+rest(0.5, bpm)
+keypress("z", x, bpm)
+rest(0.5, bpm)
+keypress("l", x, bpm)
+rest(0.5, bpm)
+keypress("l", x, bpm)
+keypress("g", x, bpm)
+keypress("q", x, bpm)
+keypress("e", x, bpm)
+rest(0.5, bpm)
+keypress("t", x, bpm)
+rest(0.5, bpm)
+keypress("u", x, bpm)
+rest(0.25, bpm)
+keypress("y", x, bpm)
+rest(0.25, bpm)
+keypress("t", x, bpm)
+rest(0.5, bpm)
+keypress("t", x, bpm)
+keypress("u", x, bpm)
+
+finishedSong()
